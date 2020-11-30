@@ -2,29 +2,28 @@ body {
     background-color: #210439;
 }
 
-nav>ul>li>a {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  nav>ul>li {
-      float: left;
-      padding: 20px 20px;
-      list-style-type: none;
-      color: white;
-      background-color: purple;
-  }
-  
-   nav>ul>li:hover {
-    background-color: white;
-  }
-  
-  nav>ul>li:hover a{
-      color: purple;
-  }
+a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+.nav {
+    float: left;
+    padding: 20px 40px;
+    list-style-type: none;
+    color: white;
+    background-color: purple;
+}
+
+ .nav:hover {
+  background-color: white;
+}
+
+.nav:hover a{
+    color: purple;
+}
 h1 {
     text-decoration: underline;
 }
