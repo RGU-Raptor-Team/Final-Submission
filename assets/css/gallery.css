@@ -40,7 +40,8 @@ p, h1, h2{
   width: 200px;
   height: 150px;
   border-radius: 20px;
-  
+  position: relative;
+  left: 50px
 }
 
 .dark-mode {
