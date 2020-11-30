@@ -59,6 +59,31 @@ p, h1, h2{
   color: black;
 }
 
+nav>ul>li>a {
+  color: white;
+  background-color: purple;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav>ul>li {
+    float: left;
+    padding: 20px 40px;
+    list-style-type: none;
+    color: white;
+    background-color: purple;
+}
+
+ nav>ul>li:hover {
+  background-color: white;
+}
+
+nav>ul>li:hover a{
+  color: black;
+  background-color: white;
+}
+
 #title {
   background-color: #9376AC;
   float: left;
