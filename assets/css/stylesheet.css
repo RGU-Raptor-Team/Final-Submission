@@ -1,0 +1,240 @@
+/*body*/
+.bodyStyle {
+    background-color: #210439;
+}
+p {
+    color: white;
+}
+
+/*header*/
+
+.centerButton {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+div.navBar a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+div.navBar li {
+    float: left;
+    padding: 20px 20px;
+    list-style-type: none;
+    color: white;
+    background-color: purple;
+}
+
+ div.navBar li:hover {
+  background-color: white;
+}
+
+div.navBar li:hover a{
+    color: purple;
+}
+
+/*main*/
+
+.title {
+    background-color: #9376AC;
+    margin-left: 153px;
+    margin-right: 153px;
+    border-radius: 10px;
+}
+
+.Center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+} 
+
+.map {
+    padding: 10px;
+    border: 10px;  
+}
+
+.hStyle {
+    color: white;
+    text-align: center;
+    
+}
+
+#SIW {
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#POI {
+    margin-top: 30px;
+    background-color: #9376AC;
+    border-radius: 10px;
+}
+
+.releases {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9376AC;
+    border-radius: 10px;
+    border: 10px;
+    margin-left: 153px;
+    margin-right: 600px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+img.imageMouse:hover {
+        transform: scale(1.5);
+        border-radius: 10px;
+    }
+
+.imageMouse {
+    border-radius: 0px;
+}
+
+.grid-33 {
+    color: white;
+}
+
+aside p,h3,h4 {
+    margin: 0;
+}
+
+aside h3 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside h4 {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside {
+    padding-right: 0px !important;
+    margin-top: -5px !important;
+}
+
+.grid-container {
+    padding-right: 0px !important;
+    color: white;
+}
+
+.test {
+    background-color: purple;
+}
+
+
+table{
+    table-layout: fixed;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 3px solid white;
+}
+
+tr {
+    height: 50px;
+    width:50px;
+}
+
+div.tableStyle th, td {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #9376AC;
+}
+
+div.test img{
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+td.active {
+    background-color: #210439;
+}
+
+td:hover {
+    background-color: purple;
+}
+
+.tableHeader {
+    background-color: purple;
+    border: 0px;
+    color: white;
+}
+/*footer*/
+
+footer {
+    background-color: purple;
+    text-align: center;
+    width: 1435px;
+    position: relative;
+    left: -90px;
+    color: white;
+}
+
+/*dark mode button*/
+
+.dark-mode {
+    background-color: white;
+}
+
+.dark-mode table{
+    border: 3px solid black;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode p{
+    color: black;
+}
+
+.dark-mode td {
+    color: black;
+}
+
+.dark-mode #week01, .dark-mode #week02, .dark-mode #week03, .dark-mode #week04 {
+    color: black;
+}
+
+.dark-mode .active {
+    background-color: white;
+}
+
+.dark-mode .active:hover {
+    background-color: purple;
+}
+
+
+#week01, #week02, #week03, #week04 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: left;
+  margin-top: 20px;
+  color: white;
+  display: none;
+}
