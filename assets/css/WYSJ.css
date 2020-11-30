@@ -1,0 +1,150 @@
+body {
+    background-color: #210439;
+}
+
+nav {
+    background-color: #9376AC;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav>ul>li {
+      float: left;
+      padding: 20px 20px;
+      list-style-type: none;
+      color: white;
+      background-color: purple;
+  }
+  
+   nav>ul>li:hover {
+    background-color: white;
+  }
+  
+  nav>ul>li:hover a{
+      color: purple;
+  }
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+#PageHeading {
+    background-color: #9376AC;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#society_logo {
+    height:150px;
+    width:200px;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+}
+
+h1, h2, h3, h4, p {
+    color:white;
+}
+
+#FriendsImage {
+    float: right;
+    width: 230px;
+    height: 260px;
+    margin-left: 10px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+#HorizonImage {
+    float: right;
+    width: 200px;
+    height: 230px;
+    margin-left: 10px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+#GamingImage {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+#Friends, #Expand, #Fun {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #9376AC;
+    height: 350px;
+}
+
+#Expand {
+    border-radius: 20px;
+    padding: 10px;
+    margin:10px;
+    background-color: #9376AC;
+}
+
+#Fun {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #9376AC;
+}
+
+#Button {
+    position: relative;
+    top: 80px;
+    text-align: center;
+    padding: 10px;
+    align-self: center;
+}
+
+#JoinButton {
+    width: 300px;
+    height: 150px;
+    background-color: #9376AC;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+}
+
+.dark-mode #JoinButton{
+    border-color: black;
+    color: black;
+}
+
+.dark-mode {
+    background-color: white;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode p{
+    color: black;
+}
+
+#DarkModeButton {
+    position: relative;
+    left: 500px;
+}
+
+footer {
+    background-color: purple;
+    text-align: center;
+    width: 1435px;
+    position: relative;
+    left: 40px;
+}
+
+footer>a {
+    padding:25px;
+}

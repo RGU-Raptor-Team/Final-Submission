@@ -1,0 +1,195 @@
+body {
+    background-color: #210439;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav>ul>li {
+      float: left;
+      padding: 20px 20px;
+      list-style-type: none;
+      color: white;
+      background-color: purple;
+  }
+  
+   nav>ul>li:hover {
+    background-color: white;
+  }
+  
+  nav>ul>li:hover a{
+      color: purple;
+  }
+
+h1 {
+    text-decoration: underline;
+}
+
+#society_logo {
+    height:150px;
+    width:200px;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+}
+
+h1, h2, h3, h4, p {
+    color:white;
+}
+
+#PageHeading {
+    background-color: #9376AC;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#PresidentPhoto {
+    height:210px;
+    width:280px;
+    float: left;
+    margin-right: 10px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+#President {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #9376AC;
+    height: 300px;
+    width: 750px;
+    margin-bottom: 10px;
+}
+
+#President>h2, #VP1>h3, #VP2>h3, #OtherMembers>h3 {
+    text-decoration: underline;
+}
+
+#VP1Photo {
+    height:140px;
+    width:140px;
+    float: left;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+#VP1 {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #9376AC;
+    width:365px;
+    height: 240px;
+}
+
+#VP2Photo {
+    height:140px;
+    width:140px;
+    float: left;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+#VP2 {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #9376AC;
+    width:365px;
+    height: 240px;
+}
+
+#VP1>h4, #VP2>h4 {
+    font-size: 75%;
+}
+
+#Roles {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #9376AC;
+    margin: 5px;
+    height: 290px;
+}
+
+#Roles>p {
+    font-size: 95%;
+    margin: 10px;
+}
+
+#OtherMembers {
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #9376AC;
+    margin: 5px;
+    height: 245px;
+}
+
+#OtherMembers>h3 {
+    padding-left: 10px;
+}
+
+#OtherMembers>p {
+    text-align: center;
+}
+
+#DavidMarshall, #LyndonDykes, #JohnMcGinn, #KieranTierney,#Maradona, #AndyConsidine  {
+    height:50px;
+    width:50px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#AndyConsidine {
+    position: relative;
+    right: 10px;
+}
+
+aside>ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 5;
+    overflow: hidden;
+}
+
+aside>ul>li {
+    float: left;
+    
+}
+
+aside>ul>li>p {
+    font-size: 60%;
+    margin-right: 40px;
+}
+
+aside {
+    padding-right: 0px !important;
+}
+
+.dark-mode {
+    background-color: white;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode p{
+    color: black;
+}
+
+#DarkModeButton {
+    position: relative;
+    left: 500px;
+}
+
+footer {
+    background-color: purple;
+    text-align: center;
+    width: 1435px;
+    position: relative;
+    left: 40px;
+}
+
+footer>a {
+    padding:25px;
+}
