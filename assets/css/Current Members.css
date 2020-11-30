@@ -184,8 +184,6 @@ aside {
 footer {
     background-color: purple;
     text-align: center;
-    position: relative;
-    left: 40px;
 }
 
 footer>a {
