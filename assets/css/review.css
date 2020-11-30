@@ -40,8 +40,11 @@ p, h1, h2{
 /* Header */
 
 #logo {
-  padding-left: 40px;
-  border-radius: 20px;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  position: relative;
+  left: 50px
 }
 
 .dark-mode {
