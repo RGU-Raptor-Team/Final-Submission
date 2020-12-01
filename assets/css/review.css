@@ -85,7 +85,6 @@ nav>ul>li {
 }
 
 nav>ul>li:hover a{
-  color: black;
   background-color: white;
 }
 
