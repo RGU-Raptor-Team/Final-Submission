@@ -1,0 +1,66 @@
+#images{
+    border-radius: 10px;
+  }
+  
+  .padding {
+      padding: 20px 20px;
+  }
+  
+  a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav {
+    float: left;
+    padding: 20px 40px;
+    list-style-type: none;
+    color: white;
+    background-color: purple;
+}
+  
+   
+  
+  
+
+.dark-mode {
+    background-color: white;
+  }
+  
+  .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode p{
+    color: black;
+  }
+  
+  #DarkModeButton {
+    left:570px;
+    float:center;
+    position: relative;
+  }
+  
+  body{
+    background-color:#210439;
+  }
+  
+  footer {
+    background-color: purple;
+    text-align: center;
+    width: 1870px;
+    position: relative;
+    color:white;
+  }
+  
+  footer>a {
+    padding:25px;
+  }
+  
+  #title {
+    background-color: #9376AC;
+    float: left;
+    border-radius: 20px;
+    padding: 20px;
+    padding-right:1230px;
+    margin: 15px;
+    color:white;
+  }
