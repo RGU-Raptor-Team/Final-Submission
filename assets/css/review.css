@@ -24,7 +24,6 @@ a {
 }
 
  .nav:hover {
-  color: purple;
   background-color: white;
 }
 
@@ -86,7 +85,8 @@ nav>ul>li {
 }
 
 nav>ul>li:hover a{
-  background-color: purple;
+  color: black;
+  background-color: white;
 }
 
 #title {
