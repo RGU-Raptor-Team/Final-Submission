@@ -85,7 +85,7 @@ nav>ul>li {
 }
 
 nav>ul>li:hover a{
-  color: black;
+  color: purple;
   background-color: white;
 }
 
