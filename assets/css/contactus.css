@@ -21,6 +21,15 @@
     background-color: purple;
 }
   
+.nav:hover {
+  background-color: white;
+}
+  
+  
+.nav:hover a{
+  color: purple;
+}
+
    
   
   
