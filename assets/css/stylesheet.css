@@ -232,6 +232,10 @@ footer {
     color: white;
 }
 
+footer a {
+    padding:25px;
+}
+
 /*dark mode button*/
 
 .dark-mode {
